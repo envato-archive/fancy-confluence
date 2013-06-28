@@ -1,0 +1,67 @@
+$light-grey: #d2d2d2;
+$grey: #777;
+$black: #000;
+
+hr { 
+  border-style: none; 
+  border-bottom-style: dotted;
+  display: none;
+  margin-top:2em;
+}
+
+h2 {
+  border-top: 1px dotted $grey;
+  padding-top: 1.5em;
+}
+
+h3 + p {
+  margin-top: 0.3em;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+h4 + p {
+  margin-top: 0;
+}
+
+#splitter img {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+#splitter .userLogo,
+#splitter .logo {
+  border: 1px solid $light-grey;
+  box-shadow: none;
+}
+
+.section-title a {
+  color: $black;
+}
+
+.recently-updated .update-groupings {
+  margin-bottom: 2em;
+}
+
+.update-groupings .grouping {
+  margin-bottom: 1.5em;
+}
+
+.more-link-container {
+  border-top-style: dotted;
+}
+
+.grouping .confluence-userlink:link,
+.grouping .confluence-userlink:visited {
+  color: $black;
+  font-size: 1rem;
+}
+
+.wiki-content li .toc-indentation {
+  margin-top: 0.5em;
+}
+
+li {
+  margin-bottom: 0.35em;
+}

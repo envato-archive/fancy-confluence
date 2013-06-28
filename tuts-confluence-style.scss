@@ -1,0 +1,151 @@
+$tuts-light-blue: #c7d3e1;
+$tuts-blue: #2a3745;
+$tuts-light-grey: #d2d2d2;
+$tuts-white: #fcfcfc;
+$tuts-green: #82B541;
+$tuts-yellow: #FFF8C7;
+
+$white: #fff;
+
+
+#splitter-sidebar {
+  background-color: $tuts-blue;
+  background-image: none;
+
+  .plugin_pagetree li a, 
+  .plugin_pagetree ul {
+    color: $tuts-light-blue;
+  }
+
+  h3 {
+    border-bottom: 1px dotted $tuts-light-blue;
+    color: $white;
+    font-size: 1.3em;
+    font-weight: normal;
+    margin: 0.7em 10px 0.8em;
+    padding: 0 0 0.25em;
+  }
+}
+
+#children-section-title {
+  .children-show-hide {
+    display: none;
+  }
+
+  &:after {
+    content: 'In This Section...';
+    display: block;
+    margin-bottom: 1em;  
+  }
+}
+
+#page-children {
+  margin-bottom: 3em;
+}
+
+.discussion,
+.comment-thread {
+  background-color: $tuts-white;
+  border-top: 10px solid $tuts-light-grey;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.15);
+  margin-bottom: 1.6em;
+  padding: 3em 2em;
+}
+
+.comment-thread .comment-thread {
+  background-color: $white;
+}
+
+.discussion.tuts-discussion {
+  border-top-color: $tuts-green;
+}
+
+#splitter-content { 
+  .comment-thread {
+    border-top-width: 5px;
+
+    .comment-thread {
+      border-top-width: 2px;
+    }
+  }
+
+  .comment {
+    border-top: none;
+  }
+}
+
+.panel,
+#content .panel {
+  background-color: $tuts-yellow;
+}
+
+.blogpost .twoColumns .cell.aside {
+  padding: 0 0 0 3.5em;
+}
+
+.blog-item {
+  overflow: hidden;
+  position: relative;
+}
+
+.blog-title {
+  font-size: 0.65rem;
+  padding: 0;
+  text-transform: uppercase;
+  a {
+    font-size: 1rem;
+    left: 0;
+    position: relative;
+    text-transform: none;
+  }
+}
+
+.blog-post-list {
+  .blog-item-space,
+  .blog-item-creator,
+  .blog-item-date {
+    float: left;
+    font-size: 0.65rem;
+    margin-left:0; 
+  }
+
+  .blog-item-creator {
+    font-style: italic;
+  }
+
+  .blog-item-space,
+  .blog-item-date {
+    margin-left: 0.5em;
+    text-transform: uppercase;
+  }
+
+  .blog-item-date:after {
+    content:"in";
+    display: inline-block;
+    font-style: italic;
+    text-transform: lowercase;
+  }
+
+  li.blog-item {
+    border-bottom-style: dotted;
+    padding-bottom: 1em;
+    .blog-title {
+      float: none;
+    }
+  }
+
+  h4.sub-heading {
+    border-bottom-style: dotted;
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-top:1em;
+    padding-bottom: 0.3em;
+    padding-left: 0.25em;
+  }
+}
+
+.icon-blog {
+  display: none;
+}
+
+
