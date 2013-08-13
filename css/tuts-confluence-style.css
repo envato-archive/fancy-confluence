@@ -4,6 +4,11 @@
   #splitter-sidebar .plugin_pagetree li a,
   #splitter-sidebar .plugin_pagetree ul {
     color: #c7d3e1; }
+  #splitter-sidebar .plugin_pagetree .plugin_pagetree_current a {
+    color: white;
+    border-bottom: 1px dotted white; }
+    #splitter-sidebar .plugin_pagetree .plugin_pagetree_current a:hover {
+      text-decoration: none; }
   #splitter-sidebar h3 {
     border-bottom: 1px dotted #c7d3e1;
     color: white;

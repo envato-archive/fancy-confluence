@@ -12,10 +12,21 @@ $white: #fff;
   background-color: $tuts-blue;
   background-image: none;
 
-  .plugin_pagetree li a, 
-  .plugin_pagetree ul {
-    color: $tuts-light-blue;
+  .plugin_pagetree {
+  	li a, 
+  	ul {
+    	color: $tuts-light-blue;
+	}
+	.plugin_pagetree_current a {
+		color: $white;
+		border-bottom: 1px dotted $white;
+		&:hover {
+			text-decoration: none;
+		}
+	}
   }
+
+
 
   h3 {
     border-bottom: 1px dotted $tuts-light-blue;
