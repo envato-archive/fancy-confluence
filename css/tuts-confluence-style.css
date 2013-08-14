@@ -18,11 +18,18 @@
     padding: 0 0 0.25em; }
 
 #children-section-title .children-show-hide {
-  display: none; }
-#children-section-title:after {
-  content: 'In This Section...';
-  display: block;
-  margin-bottom: 1em; }
+  /*display: none;*/
+  display: inline-block;
+  margin-bottom: 0.7em; }
+  #children-section-title .children-show-hide a, #children-section-title .children-show-hide a:hover, #children-section-title .children-show-hide a:visited {
+    color: #333333;
+    text-decoration: none; }
+  #children-section-title .children-show-hide a:hover {
+    text-decoration: underline; }
+  #children-section-title .children-show-hide:after {
+    content: "...";
+    display: inline-block;
+    margin-left: -0.2em; }
 
 #page-children {
   margin-bottom: 3em; }
